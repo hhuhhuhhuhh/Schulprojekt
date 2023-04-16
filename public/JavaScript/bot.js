@@ -332,7 +332,7 @@ function DestroyShips(shot){
     if ( bigShipsA.ship1[1][0] === shot0 &&  bigShipsA.ship1[1][1] === shot1) {bigShipsA.ship1[5]=true}
     if ( bigShipsA.ship1[2][0] === shot0 &&  bigShipsA.ship1[2][1] === shot1) {bigShipsA.ship1[6]=true}
     if ( bigShipsA.ship1[3][0] === shot0 &&  bigShipsA.ship1[3][1] === shot1) {bigShipsA.ship1[7]=true}
-    if (!NotMarked(shot)){SetShipsDestroyed()};
+    SetShipsDestroyed()
 }
 
 function SetShipsDestroyed(){
